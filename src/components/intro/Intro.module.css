@@ -1,0 +1,103 @@
+.intro{
+    display: flex;
+    height: 100vh;
+}
+.introLeft{
+    flex: 1;
+}
+.introRight{
+    flex: 1;
+    position: relative;
+}
+.iLeftWrapper{
+    padding: 50px;
+}
+.iIntro {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .iName {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  .title {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .titleWrapper {
+    height: 100%;
+    /* Lets use it when we have more than one tittle to add on */
+    /* animation: move 10s ease-in-out infinite alternate; */
+  }
+  
+  /* @keyframes move {
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  } */
+  
+  .titleItem {
+    height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #10b9ec;
+    /* display: flex;
+    align-items: center; */
+  }
+  
+ 
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .bg {
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #10b9ec;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+@media screen and (max-width : 768px) {
+  .titleItem{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width : 425px) {
+    .intro{
+        flex-direction: column;
+    }
+    .titleItem{
+
+    }
+    .iLeftWrapper {
+  
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+    
+      .desc{
+        display: none;
+      }
+}
