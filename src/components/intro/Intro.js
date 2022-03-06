@@ -1,5 +1,5 @@
 import Styles from './Intro.module.css'
-import me from './../../assets/images/modified.png'
+import me from './../../assets/images/myPic.png'
 
 function Intro() {
     return (
