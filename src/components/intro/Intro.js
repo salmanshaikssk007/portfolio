@@ -14,9 +14,10 @@ function Intro() {
                         </div>
                 </div>
                 <p className={Styles.desc}>
-                    UI plays a main role in developing product . Product with good UI stand out to their competitors . I as a frontend developer can develop modular and scalable solutions for your product . 
+                    UI plays a main role in developing product . Product with good UI stand out to their competitors . I , as a frontend developer can develop modular and scalable solutions for your product . 
                 </p>
             </div>
+          
            </div>
            <div className={Styles.introRight}>
              <div className={Styles.bg}></div>
