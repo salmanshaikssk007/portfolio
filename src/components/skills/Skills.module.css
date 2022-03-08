@@ -71,6 +71,15 @@
 .hr{
     width : 90%
 }
+@media screen and (max-width : 1024px) and (min-width : 768px) {
+    .a_left{
+        display: none;
+        /* margin-top: 500px; */
+    }
+    .a_right{
+        margin-top: 500px;
+    }
+}
 @media screen and (max-width : 768px) {
     .a_left{
         display: none;

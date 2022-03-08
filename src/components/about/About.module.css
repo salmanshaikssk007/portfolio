@@ -16,7 +16,7 @@
 }
 .a_left{ 
     flex: 1;
-    height: auto;
+    height: 100vh;
 }
 .a_card_bg{
     position: absolute;
@@ -51,6 +51,14 @@
 .info_p{
     margin: 15px;
     line-height: 1.7rem;
+}
+@media screen and (max-width : 1024px){
+    
+    .a_img{
+        width: 200%;
+        height: 100%;
+       
+    }
 }
 @media screen and (max-width : 768px) {
     .about{
