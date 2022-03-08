@@ -76,21 +76,16 @@
         display: none;
         /* margin-top: 500px; */
     }
-    .a_right{
-        margin-top: 500px;
-    }
 }
 @media screen and (max-width : 768px) {
     .a_left{
         display: none;
     }
     .about{
-        flex-direction: column;
-        text-align: center;
+
+       text-align: center;
         margin-top: 10px;
         align-items:stretch;
-       
-        
     }
     .a_card {
         height: auto;
@@ -107,6 +102,9 @@
 @media screen and (max-width : 425px) {
     .div_sub >*{
         flex : 1 1 1;
+    }
+    .a_right{
+        margin-top: 400px;
     }
     .a_rt_card{
         margin: 1px 1px 1px 0px;

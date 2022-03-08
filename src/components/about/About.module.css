@@ -54,9 +54,8 @@
 }
 @media screen and (max-width : 1024px){
     
-    .a_img{
-        width: 200%;
-        height: 100%;
+    .a_right{
+        display: none;
        
     }
 }
@@ -65,7 +64,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
-        height: auto;
+        /* height: auto; */
         
     }
     .a_right{
@@ -75,6 +74,7 @@
         display: none;
     }
     .info_card{
+       
         margin-top: 20px;
         margin-left: 10px;
     }
