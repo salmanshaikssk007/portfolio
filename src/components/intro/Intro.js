@@ -1,5 +1,6 @@
 import Styles from './Intro.module.css'
 import me from './../../assets/images/myPic.png'
+import Typewritting from '../ui_componets/Typewritting';
 
 function Intro() {
     return (
@@ -10,7 +11,9 @@ function Intro() {
                    <h2 className={Styles.iName}>Salman Shaik</h2>
                 <div className={Styles.title}>
                         <div className={Styles.titleWrapper}>
-                            <div className={Styles.titleItem}>Frontend Developer</div>
+                            <div className={Styles.titleItem}>          
+                            <Typewritting />
+                            </div>
                         </div>
                 </div>
                 <p className={Styles.desc}>

@@ -1,7 +1,9 @@
+import './App.css';
 import Intro from './components/intro/Intro'
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
-import './App.css';
+import Contact from './components/contact/Contact';
+import ProjectList from './components/projectlist/ProjectList';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Intro />
       <About />
       <Skills />
+      {/* <ProjectList /> */}
+      <Contact />
     </div>
   );
 }
