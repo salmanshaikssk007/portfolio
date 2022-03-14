@@ -51,7 +51,7 @@ function Contact() {
                     </div>    
                     <div className={Styles.c_right}>
                          <p className={Styles.c_desc}>
-                            Looking forward for good Opportunity !!! . Let me help to introduce myself . seen you soon . Have a nice day . 
+                            Looking forward for good Opportunity !!! .  Let me help to introduce myself .<br /> seen you soon . Have a nice day . 
                         </p>
                         {/* <form ref={formRef} onSubmit={handleSubmit}>
                             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
@@ -73,7 +73,7 @@ function Contact() {
                         </form>
                     </div>
                 </div>
-                <p className={Styles.footer}>Designed by salman &copy; 2022</p>
+                <p className={Styles.footer}>2022 &copy; Myportfolio . All Rights Reserved</p>
         </div>
     )
 }
