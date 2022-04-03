@@ -25,8 +25,9 @@
   }
   
   .p_img {
+
     width: 100%;
-    transition: all 10s ease;
+    transition: all 3s ease;
   }
   
   .p:hover .p_img {
@@ -35,7 +36,7 @@
   
   @media screen and (max-width: 480px) {
     .p {
-      width: 40%;
-      height: 20vh;
+      width: 70%;
+      height: 30vh;
     }
   }

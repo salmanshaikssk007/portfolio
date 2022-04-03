@@ -15,7 +15,7 @@
 .iIntro {
     font-size: 30px;
     font-weight: 300;
-  }
+}
   
   .iName {
     font-size: 60px;
@@ -75,7 +75,10 @@
     top: 0;
     right: 0;
   }
-  
+@keyframes slide {
+    0% { left: -300px;}
+    100% { left: 0; }
+}
 
 @media screen and (max-width : 768px) {
   .titleItem{

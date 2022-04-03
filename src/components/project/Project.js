@@ -1,6 +1,6 @@
 import Styles from './Project.module.css'
 
-function Project(state) {
+function Project(props) {
     return (
         <div className={Styles.p}>
             <div className={Styles.p_browser}>
@@ -8,8 +8,8 @@ function Project(state) {
                 <div className={Styles.p_circle}></div>
                 <div className={Styles.p_circle}></div>
             </div>
-            <a href={state.link} target="_blank" rel="noreferrer">
-                <img src={state.img} alt="" className={Styles.p_img} />
+            <a href={props.link} target="_blank" rel="noreferrer">
+                <img src={props.img} alt="" className={Styles.p_img} />
             </a>
         </div>
     )
